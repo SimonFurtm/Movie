@@ -23,8 +23,8 @@ namespace WpfUni
 									"Staat: " + universitie.stateprovince + "\n" +
 									"Alpha2Code: " + universitie.alpha_two_code + "\n" +
 									"Country: " + universitie.country + "\n" +
-									"Websites: " + universitie.websites + "\n" +
-									"Domains: " + universitie.domains + "\n";
+									"Websites: " + universitie.websites + "\n" + 
+									"Domains: " + string.Join(", ", universitie.domains) + "\n"; //Array
 
 			// Add the TextBlock to the popup window's content
 			this.Content = uniInfoTextBlock;

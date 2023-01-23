@@ -5,10 +5,12 @@ C:\Users\Simon\source\repos\Movie\WpfUni\bin\Debug\net6.0-windows\WpfUni.dll
 C:\Users\Simon\source\repos\Movie\WpfUni\bin\Debug\net6.0-windows\WpfUni.pdb
 C:\Users\Simon\source\repos\Movie\WpfUni\obj\Debug\net6.0-windows\WpfUni.csproj.AssemblyReference.cache
 C:\Users\Simon\source\repos\Movie\WpfUni\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Simon\source\repos\Movie\WpfUni\obj\Debug\net6.0-windows\Window1.g.cs
 C:\Users\Simon\source\repos\Movie\WpfUni\obj\Debug\net6.0-windows\App.g.cs
 C:\Users\Simon\source\repos\Movie\WpfUni\obj\Debug\net6.0-windows\WpfUni_MarkupCompile.cache
 C:\Users\Simon\source\repos\Movie\WpfUni\obj\Debug\net6.0-windows\WpfUni_MarkupCompile.lref
 C:\Users\Simon\source\repos\Movie\WpfUni\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Simon\source\repos\Movie\WpfUni\obj\Debug\net6.0-windows\Window1.baml
 C:\Users\Simon\source\repos\Movie\WpfUni\obj\Debug\net6.0-windows\WpfUni.g.resources
 C:\Users\Simon\source\repos\Movie\WpfUni\obj\Debug\net6.0-windows\WpfUni.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Simon\source\repos\Movie\WpfUni\obj\Debug\net6.0-windows\WpfUni.AssemblyInfoInputs.cache
@@ -19,5 +21,3 @@ C:\Users\Simon\source\repos\Movie\WpfUni\obj\Debug\net6.0-windows\refint\WpfUni.
 C:\Users\Simon\source\repos\Movie\WpfUni\obj\Debug\net6.0-windows\WpfUni.pdb
 C:\Users\Simon\source\repos\Movie\WpfUni\obj\Debug\net6.0-windows\WpfUni.genruntimeconfig.cache
 C:\Users\Simon\source\repos\Movie\WpfUni\obj\Debug\net6.0-windows\ref\WpfUni.dll
-C:\Users\Simon\source\repos\Movie\WpfUni\obj\Debug\net6.0-windows\Window1.g.cs
-C:\Users\Simon\source\repos\Movie\WpfUni\obj\Debug\net6.0-windows\Window1.baml

@@ -8,14 +8,16 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Label Content="Movie API" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="22" Width="385"/>
-        <ListView d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,54,0,0" SelectionChanged="ListView_SelectionChanged">
+        <ListView x:Name="dataListView" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,54,0,0" SelectionChanged="ListView_SelectionChanged">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn/>
+                    <GridViewColumn x:Name="title" DisplayMemberBinding="{Binding Title}" Header="Title"/>
+                    <GridViewColumn x:Name="releaseDate" DisplayMemberBinding="{Binding ReleaseDate}" Header="ReleaseDate"/>
+                    <GridViewColumn x:Name="price" DisplayMemberBinding="{Binding Price}" Header="Price"/>
                 </GridView>
             </ListView.View>
         </ListView>
-        <Label Content="Console:" HorizontalAlignment="Left" Margin="400,10,0,0" VerticalAlignment="Top" FontSize="22" Width="390"/>
+        <Label x:Name="consoleLabel" Content="Console:" HorizontalAlignment="Left" Margin="400,10,0,0" VerticalAlignment="Top" FontSize="22" Width="390"/>
 
     </Grid>
 </Window>
