@@ -41,7 +41,6 @@ namespace WpfHolliday
 					try
 					{
 						HttpResponseMessage response = client.GetAsync(apiUrl).Result;
-						HttpContent content = response.Content;
 
 						List<Hollydays> apiData = await response.Content.ReadFromJsonAsync<List<Hollydays>>();
 

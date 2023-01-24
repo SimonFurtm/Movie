@@ -15,6 +15,6 @@ namespace WpfUni
 		public string alpha_two_code { get; set; }
 		public string name { get; set; }
 		public string country { get; set; }
-		public List<string> domains { get; set; }
+		public List<Uri> domains { get; set; }
 	}
 }

@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Simon\\source\\repos\\Movie\\WpfHolliday\\WpfHolliday.csproj": {}
+    "C:\\Users\\simif\\Documents\\GitHub\\Movie\\WpfHolliday\\WpfHolliday.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Simon\\source\\repos\\Movie\\WpfHolliday\\WpfHolliday.csproj": {
+    "C:\\Users\\simif\\Documents\\GitHub\\Movie\\WpfHolliday\\WpfHolliday.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Simon\\source\\repos\\Movie\\WpfHolliday\\WpfHolliday.csproj",
+        "projectUniqueName": "C:\\Users\\simif\\Documents\\GitHub\\Movie\\WpfHolliday\\WpfHolliday.csproj",
         "projectName": "WpfHolliday",
-        "projectPath": "C:\\Users\\Simon\\source\\repos\\Movie\\WpfHolliday\\WpfHolliday.csproj",
-        "packagesPath": "C:\\Users\\Simon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Simon\\source\\repos\\Movie\\WpfHolliday\\obj\\",
+        "projectPath": "C:\\Users\\simif\\Documents\\GitHub\\Movie\\WpfHolliday\\WpfHolliday.csproj",
+        "packagesPath": "C:\\Users\\simif\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\simif\\Documents\\GitHub\\Movie\\WpfHolliday\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Programme\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\simif\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

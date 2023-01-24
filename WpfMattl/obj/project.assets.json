@@ -55,25 +55,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Simon\\.nuget\\packages\\": {},
-    "D:\\Programme\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Users\\simif\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Simon\\source\\repos\\Movie\\WpfMattl\\WpfMattl.csproj",
+      "projectUniqueName": "C:\\Users\\simif\\Documents\\GitHub\\Movie\\WpfMattl\\WpfMattl.csproj",
       "projectName": "WpfMattl",
-      "projectPath": "C:\\Users\\Simon\\source\\repos\\Movie\\WpfMattl\\WpfMattl.csproj",
-      "packagesPath": "C:\\Users\\Simon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Simon\\source\\repos\\Movie\\WpfMattl\\obj\\",
+      "projectPath": "C:\\Users\\simif\\Documents\\GitHub\\Movie\\WpfMattl\\WpfMattl.csproj",
+      "packagesPath": "C:\\Users\\simif\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\simif\\Documents\\GitHub\\Movie\\WpfMattl\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Programme\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\simif\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

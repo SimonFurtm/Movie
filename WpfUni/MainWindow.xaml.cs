@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Metrics;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Json;
@@ -18,7 +19,6 @@ namespace WpfUni
 	{
 		public MainWindow()
 		{
-
 			InitializeComponent();
 			getData();
 		}
@@ -29,7 +29,7 @@ namespace WpfUni
 			var apiUrl = "http://universities.hipolabs.com/search?country=" + country;
 			try
 			{
-				//using (x wird nur im using verwendet){...}
+				//using (x wird nur im using verwendet){...} besser für speicher
 				using (HttpClient Client = new HttpClient())
 				{
 					try
@@ -86,9 +86,20 @@ namespace WpfUni
 			}
 		}
 
-		private void countryComboBox_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
-		{
-			
-		}
-	}
+        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var selectedUni = (Universities)dataListView.SelectedValue;
+
+            if (selectedUni != null)
+            {
+                var infoWindow = new InfoScreen(selectedUni);
+                infoWindow.Show();
+            }
+        }
+
+        private void countryComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+    }
 }

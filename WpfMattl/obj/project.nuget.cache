@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fDJmiaq91B9sAh/lTxpRzIvWm3KrxdOR6rbJaAuZ3ng7lgQKMJH3kkSdwtkMLZU7Jp6X+e2VXGMwnwLqRaQ8jQ==",
+  "dgSpecHash": "8e9GTLD8j84lkC248G4o620DxTC15KoVVY7iUwDFhgEhZbCEtSW8tN7+qNHeJOZKKIMa3qDiEDXlpVwciN6FDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Simon\\source\\repos\\Movie\\WpfMattl\\WpfMattl.csproj",
+  "projectFilePath": "C:\\Users\\simif\\Documents\\GitHub\\Movie\\WpfMattl\\WpfMattl.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Simon\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+    "C:\\Users\\simif\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
   ],
   "logs": []
 }

@@ -8,13 +8,10 @@
         Icon="https://cdn-icons-png.flaticon.com/512/8790/8790372.png"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="47*"/>
-            <ColumnDefinition Width="53*"/>
-        </Grid.ColumnDefinitions>
+
         <Label HorizontalAlignment="Left" Content="Universitäten aus:" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="22" Width="390" Grid.ColumnSpan="2"/>
-        <Label x:Name="consoleLabel" Content="Console:" HorizontalAlignment="Left" Margin="24,10,0,0" VerticalAlignment="Top" FontSize="22" Width="390" Grid.Column="1"/>
-        <ListView x:Name="dataListView" Margin="0,54,0,0" SelectionChanged="ListView_SelectionChanged" Grid.ColumnSpan="2">
+        <Label x:Name="consoleLabel" Content="Console:" HorizontalAlignment="Left" Margin="400,10,0,0" VerticalAlignment="Top" FontSize="22" Width="390"/>
+        <ListView x:Name="dataListView" Margin="0,54,400,0" SelectionChanged="ListView_SelectionChanged" Grid.ColumnSpan="2">
             <ListView.View>
                 <GridView>
                     <GridViewColumn x:Name="Country" DisplayMemberBinding="{Binding country}" Header="Land"/>
@@ -23,10 +20,18 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <ComboBox x:Name="countryComboBox" HorizontalAlignment="Left" Margin="188,19,0,0" VerticalAlignment="Top" Width="207" Grid.ColumnSpan="2" SelectionChanged="countryComboBox_SelectionChanged_1">
+        <DataGrid x:Name="dataDataGrid" d:ItemsSource="{Binding}" Margin="400,54,0,0" SelectionChanged="DataGrid_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="country" Header="Country"  Binding="{Binding country}"/>
+                <DataGridTextColumn x:Name="name" Header="Name" Binding="{Binding name}" />
+                <DataGridHyperlinkColumn x:Name="domain" Header="Domain" Binding="{Binding domain}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <ComboBox x:Name="countryComboBox" HorizontalAlignment="Left" Margin="188,19,0,0" VerticalAlignment="Top" Width="207" Grid.ColumnSpan="2" SelectionChanged="countryComboBox_SelectionChanged">
             <ComboBoxItem Content="Austria"/>
             <ComboBoxItem Content="United+States"/>
             <ComboBoxItem Content="United+Kingdom"/>
         </ComboBox>
+        
     </Grid>
 </Window>

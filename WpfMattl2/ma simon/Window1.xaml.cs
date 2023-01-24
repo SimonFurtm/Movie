@@ -12,16 +12,21 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace WpfUni
+namespace WpfMovies
 {
-    /// <summary>
-    /// Interaktionslogik für Window1.xaml
-    /// </summary>
+
     public partial class Window1 : Window
     {
-        public Window1()
+        public void setDataGrid(Movie selectedMovie)
         {
-            InitializeComponent();
+            movieDataGrid.Items.Add(selectedMovie);
+            
         }
+
+
+    
+    public Window1()
+    {
+        InitializeComponent();
     }
-}
+}}
